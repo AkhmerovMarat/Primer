@@ -44,9 +44,13 @@ function rebuildList(cotainerEl, items) {
         <button data-action="Down">Down</button>
         <button data-action="Remove">Remove</button>
         `;
-        containerEl.appendChild(liEl);
-
-
 
     }
+
+    linkEl.oncklik = function(){
+        item.done = !item.done;
+    }
+    containerEl.appendChild(liEl);
+
+}
 }
